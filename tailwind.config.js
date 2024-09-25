@@ -7,9 +7,25 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        heroTitle: ["Montserrat-Bold", "sans-serif"],
+        texts: ["Poppins-Bold", "sans-serif"],
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        lightBlue: "#2E77F8",
+        midBlue: "#062AFC",
+        darkBlue: "#101374",
+        cyan: "#00CBFE",
+        blueishGray: "#E9F6FF",
+        gray: "#D6D0D2",
+      },
+      screens: {
+        // Ejemplo de breakpoints, puedes ajustarlos según tus necesidades
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1280px",
+        "2xl": "1536px",
       },
     },
   },
