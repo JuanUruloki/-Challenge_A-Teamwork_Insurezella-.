@@ -20,6 +20,11 @@ module.exports = {
         blueishGray: "#E9F6FF",
         gray: "#E5E0E4",
       },
+
+      boxShadow:{
+        cards: "6px 14px 42px -6px rgba(0,53,240,0.88)",
+      },
+
       screens: {
         // Ejemplo de breakpoints, puedes ajustarlos según tus necesidades
         sm: "640px",
