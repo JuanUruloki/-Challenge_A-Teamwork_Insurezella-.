@@ -10,14 +10,15 @@ module.exports = {
       fontFamily: {
         heroTitle: ["Montserrat-Bold", "sans-serif"],
         texts: ["Poppins-Bold", "sans-serif"],
+        textRegular: ["Poppins-Medium", "sans-serif"],
       },
       colors: {
         lightBlue: "#2E77F8",
         midBlue: "#062AFC",
         darkBlue: "#101374",
-        cyan: "#00CBFE",
+        cyan: "#00aefe",
         blueishGray: "#E9F6FF",
-        gray: "#D6D0D2",
+        gray: "#E5E0E4",
       },
       screens: {
         // Ejemplo de breakpoints, puedes ajustarlos según tus necesidades
