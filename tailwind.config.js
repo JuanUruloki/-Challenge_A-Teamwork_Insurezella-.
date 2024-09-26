@@ -22,7 +22,7 @@ module.exports = {
       },
 
       boxShadow:{
-        cards: "6px 14px 42px -6px rgba(0,53,240,0.88)",
+        cards: "5px 14px 28px -6px rgba(46,119,248,0.88)",
       },
 
       screens: {
