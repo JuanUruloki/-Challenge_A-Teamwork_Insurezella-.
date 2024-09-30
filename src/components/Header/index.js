@@ -1,3 +1,12 @@
+/**
+ * The `Header` component in this JavaScript code is responsible for rendering a responsive navigation
+ * bar with links and contact information.
+ * @returns The `Header` component is being returned. It consists of a responsive header section with
+ * navigation links, contact information, and a mobile menu toggle button. The header includes a logo,
+ * contact details (email and phone), navigation links for Home, Find Insurance, Learn, and About, and
+ * a "Call Us Now" button with an arrow icon. The mobile menu is displayed when the toggle button is
+ * clicked
+ */
 "use client";
 import Link from "next/link";
 import { FaEnvelope, FaLongArrowAltRight, FaPhoneAlt } from "react-icons/fa";
@@ -16,10 +25,8 @@ const Header = () => {
 
   return (
     <div className="flex flex-col w-full h-auto font-texts relative z-10">
-      {/* Div superior con el botón de menú hamburguesa */}
       <div className="flex flex-row h-24 2xl:h-16 px-4 bg-lightBlue justify-evenly items-center text-white 2xl:px-48">
         <div className="flex items-center text-xs md:text-base  2xl:text-xl 3xl:text-2xl relative">
-          {/* Logo que sobresale */}
           <div
             className="absolute 2xl:hidden w-36 h-36 mt-16  bg-cover bg-center bg-no-repeat"
             style={{ backgroundImage: "url(/logo.png)" }}
@@ -55,7 +62,6 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Div que no se muestra en móvil */}
       <div className="hidden 2xl:flex h-20 w-full bg-white justify-evenly items-center flex-wrap">
         <div
           className="w-16 h-16 rounded-xl bg-contain bg-center bg-no-repeat"
@@ -96,7 +102,6 @@ const Header = () => {
         </button>
       </div>
 
-      {/* Menú desplegable en móvil */}
       <div
         className={`absolute flex flex-col ml-56 mt-24 w-max border-8 border-lightBlue bg-lightBlue 2xl:hidden ${
           navbarOpen ? "block" : "hidden"
