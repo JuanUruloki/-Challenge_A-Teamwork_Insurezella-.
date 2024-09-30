@@ -1,3 +1,12 @@
+/**
+ * The function `Footer` returns a JSX structure representing a responsive footer component with
+ * information about services, company, and contact details.
+ * @returns The `Footer` component is being returned. It consists of a responsive layout with sections
+ * for services, company information, and contact details. The component includes icons from various
+ * libraries such as `react-icons/fa` and `react-icons/gi` for visual representation. The layout is
+ * designed to display different sections based on the screen size, providing a user-friendly
+ * experience across different devices.
+ */
 import { GiUmbrella } from "react-icons/gi";
 import { FaPrescriptionBottleMedical } from "react-icons/fa6";
 import {
@@ -21,7 +30,7 @@ const Footer = () => {
               className="w-24 h-24 mb-4 rounded-xl bg-contain bg-center bg-no-repeat"
               style={{ backgroundImage: "url(/logo.png)" }}
             />
-            <p className="text-center text-base font-textRegular text-slate-400 mb-4 px-12">
+            <p className="text-center text-base font-textRegular text-slate-400 mb-4 lg:px-12 xl:px-20">
               "Discover the Peace of Mind You Deserve with Insurezella 'Your
               Reliable Insurance Umbrella'"
             </p>
@@ -33,7 +42,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Servicios */}
           <div className="w-1/2 h-full mb-8">
             <h3 className="font-texts text-3xl text-darkBlue mb-4">Services</h3>
             <ul className="text-gray-600 space-y-3">
@@ -85,7 +93,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Contacto */}
           <div className="w-1/2 h-full mb-8">
             <h3 className="font-texts text-3xl text-darkBlue mb-4">
               Get In Touch
@@ -111,15 +118,13 @@ const Footer = () => {
         </div>
       </div>
       <div className="relative hidden 2xl:flex flex-col items-center w-full">
-        {/* Contenedor del contenido del footer */}
         <div className="flex flex-row items-center w-[90vw] shadow-cards p-8 bg-white relative z-10 -mb-12">
-          {/* Primera Columna */}
           <div className="flex flex-col items-center justify-center md:items-center w-full md:w-1/4 mb-8 md:mb-0">
             <div
               className="w-24 h-24 mb-4 rounded-xl bg-contain bg-center bg-no-repeat"
               style={{ backgroundImage: "url(/logo.png)" }}
             />
-            <p className="text-center text-lg font-textRegular md:text-center text-slate-400 mb-4 px-24">
+            <p className="text-center text-lg font-textRegular md:text-center text-slate-400 mb-4 px-24 2xl:px-5 3xl:px-10">
               "Discover the Peace of Mind You Deserve with Insurezella 'Your
               Reliable Insurance Umbrella'"
             </p>
@@ -131,7 +136,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Servicios */}
           <div className="w-full md:w-1/4 mb-8 md:mb-0">
             <h3 className="font-texts text-3xl text-darkBlue mb-4">Services</h3>
             <ul className="text-gray-600 space-y-2">
@@ -158,7 +162,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Información de la Empresa */}
           <div className="w-full md:w-1/4 mb-8 md:mb-0">
             <h3 className="font-texts text-3xl text-darkBlue mb-4">Company</h3>
             <ul className="text-gray-600 space-y-2">
@@ -180,7 +183,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Contacto */}
           <div className="w-full md:w-1/4">
             <h3 className="font-texts text-3xl text-darkBlue mb-4">
               Get In Touch
@@ -204,7 +206,6 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        {/* Div azul (fondo) */}
         <div className="w-full h-20 bg-lightBlue relative z-0"></div>
       </div>
     </div>
