@@ -14,7 +14,7 @@ import { FaTwitter, FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="relative flex flex-col justify-center items-center  bg-white shadow-md w-full">
-      <div className="relative block xl:hidden items-start -ml-24">
+      <div className="relative flex 2xl:hidden items-start -ml-24">
         <div className="flex flex-row items-center gap-16 w-[90vw] shadow-cards p-8 bg-white relative z-10 left-0 -mb-16">
           <div className="flex flex-col items-center justify-center w-1/2 h-full">
             <div
@@ -61,8 +61,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="block xl:hidden w-full h-44 bg-lightBlue relative z-0"></div>
-      <div className="relative block xl:hidden items-start -mr-24">
+      <div className="flex 2xl:hidden w-full h-44 bg-lightBlue relative z-0"></div>
+      <div className="relative flex 2xl:hidden items-start -mr-24">
         <div className="flex flex-row items-center gap-16 w-[90vw] shadow-cards p-8 bg-white relative z-10 right-0 -mt-16">
           <div className="w-1/2 h-full mb-8">
             <h3 className="font-texts text-3xl text-darkBlue mb-4">Company</h3>
@@ -110,7 +110,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="relative hidden xl:block flex-col items-center w-full">
+      <div className="relative hidden 2xl:flex flex-col items-center w-full">
         {/* Contenedor del contenido del footer */}
         <div className="flex flex-row items-center w-[90vw] shadow-cards p-8 bg-white relative z-10 -mb-12">
           {/* Primera Columna */}
