@@ -1,36 +1,116 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Insurezella
 
-## Getting Started
+## Descripción
+Insurezella es un proyecto frontend desarrollado como parte de un desafío de desarrollo web. Está construido utilizando **Next.js** y **Tailwind CSS**, e incluye un slider interactivo con **React Slick** para la presentación de productos de seguros. El objetivo es proporcionar una interfaz moderna y responsiva que facilite la navegación y el acceso a información sobre diferentes tipos de seguros.
 
-First, run the development server:
+## Requisitos previos
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Para ejecutar este proyecto de manera local, asegúrate de tener instalado:
+
+- **Node.js** (versión 14.x o superior)
+- **npm** o **yarn**
+
+Las dependencias necesarias para el proyecto están en el archivo `package.json`:
+
+```json
+"dependencies": {
+    "autoprefixer": "^10.4.20",
+    "next": "14.2.13",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.3.0",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1"
+  },
+"devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.13",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+}
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Instalación
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Sigue los pasos a continuación para ejecutar este proyecto en tu máquina local:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Clona este repositorio:
 
-## Learn More
+    ```bash
+    git clone https://github.com/usuario/insurezella.git
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    ```
+2. Dirigete a la carpeta del proyecto:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+    ```bash
+    cd insurezella
 
-## Deploy on Vercel
+    ```
+3. Instala las dependencias:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    ```bash
+    npm install
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+    ```
+4. Ejecuta el proyecto en modo desarrollador:
+
+    ```bash
+    npm run dev
+
+    ```
+   El servidor de desarrollo estará disponible en `http://localhost:3000`.
+   
+   ## Estructura del proyecto
+
+   La estructura principal del proyecto es la siguiente:
+
+   insurezella/
+├── src/
+│   ├── app/
+│   │   ├── styles/
+│   │   │   ├── index.css
+│   │   │   └── favicon.ico
+│   │   ├── layout.js
+│   │   └── page.js
+│   ├── components/
+│   │   ├── Footer/
+│   │   │   └── index.js
+│   │   ├── Header/
+│   │   │   └── index.js
+│   │   ├── Hero/
+│   │   │   └── index.js
+│   │   ├── Insurances/
+│   │   │   └── index.js
+│   │   ├── Plans/
+│   │   │   └── index.js
+│   │   └── Products/
+│   │       └── index.js
+├── .eslintrc.json
+├── .gitignore
+├── jsconfig.json
+├── next.config.mjs
+├── postcss.config.mjs
+├── tailwind.config.js
+├── package.json
+└── README.md
+
+## Uso
+
+Para acceder a la aplicación, visita ``http://localhost:3000`` tras ejecutar el servidor. El proyecto incluye las siguientes funcionalidades clave:
+
+- Slider interactivo: Navega entre las diferentes opciones de seguros.
+- Contenido responsivo: La interfaz se ajusta a diferentes tamaños de pantalla.
+
+## Contribuciones
+
+Las contribuciones son bienvenidas. Si deseas contribuir, por favor sigue los procedimientos habituales de GitHub:
+
+1.Haz un fork del proyecto.
+2. Crea una rama con la nueva característica (git checkout -b feature/nueva-caracteristica).
+3. Realiza los cambios necesarios y haz commit (git commit -am 'Añadir nueva característica').
+4. Haz push a la rama (git push origin feature/nueva-caracteristica).
+5. Abre un Pull Request.
+¡Gracias por tu contribución!
+
+
