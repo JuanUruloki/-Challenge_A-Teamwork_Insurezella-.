@@ -35,26 +35,26 @@ const Products = () => {
             <p className="font-heroTitle text-xl text-center px-10">ACA obamacare</p>
             </div>
             </div>
-            <div className="flex flex-row w-auto h-full m-20">
+            <div className="flex flex-col  xl:flex-row w-auto h-full m-20">
                 <div className="flex flex-col h-full w-1/2 bg-contain bg-right bg-no-repeat"
                 style={{backgroundImage:'url(/committed-help.png)'}}
                 />
-                <div className="flex flex-col items-start justify-evenly h-full w-1/2 px-16">
-                <h2 className="text-6xl font-heroTitle">Committed to help you find the right plan</h2>
-                <p className="text-xl font-textRegular text-slate-500">Insurance is an important financial tool that can help you protect yourself and your loved ones from financial losses in the event of an unexpected event. It is important to consider your individual needs and circumstances when choosing the right insurance coverage for you and your family.</p>
-                <button className="h-12 w-72 text-lg font-textRegular text-white rounded-full bg-lightBlue">ABOUT INSUREZELLA</button>
+                <div className="flex flex-col items-start justify-evenly h-full 2xl:w-1/2 ml-28 px-28 2xl:px-16">
+                <h2 className="text-3xl 2xl:text-6xl font-heroTitle">Committed to help you find the right plan</h2>
+                <p className="text-xs 2xl:text-xl font-textRegular text-slate-500">Insurance is an important financial tool that can help you protect yourself and your loved ones from financial losses in the event of an unexpected event. It is important to consider your individual needs and circumstances when choosing the right insurance coverage for you and your family.</p>
+                <button className="h-7 w-48 2xl:h-12 2xl:w-72 text-xs 2xl:text-lg font-textRegular text-white rounded-full bg-lightBlue">ABOUT INSUREZELLA</button>
                 <div className="flex flex-row w-full h-1/6">
                     <div className="flex flex-row items-center w-1/2 h-full">
-                        <div className="w-1/2 h-20 bg-contain bg-center bg-no-repeat"
+                        <div className="w-1/2 h-10 2xl:h-16 bg-contain bg-center bg-no-repeat"
                         style={{backgroundImage:'url(/money.jpg)'}}
                         />
-                        <p className="font-heroTitle text-2xl text-start pr-4">Save Money Compare Plans</p>
+                        <p className="font-heroTitle text-sm 2xl:text-xl text-start pr-4">Save Money Compare Plans</p>
                     </div>
                     <div className="flex flex-row items-center w-1/2 h-full">
-                        <div className="w-1/2 h-20 bg-contain bg-center bg-no-repeat"
+                        <div className="w-1/2 h-10 2xl:h-16 bg-contain bg-center bg-no-repeat"
                         style={{backgroundImage:'url(/agents.jpg)'}}
                         />
-                        <p className="font-heroTitle text-2xl text-start pr-4">Licensed Agents</p>
+                        <p className="font-heroTitle text-sm 2xl:text-xl text-start pr-4">Licensed Agents</p>
                     </div>
                 </div>
                 </div>

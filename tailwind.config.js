@@ -27,12 +27,12 @@ module.exports = {
       },
 
       screens: {
-        // Ejemplo de breakpoints, puedes ajustarlos según tus necesidades
-        sm: "640px",
-        md: "768px",
-        lg: "1024px",
-        xl: "1280px",
-        "2xl": "1536px",
+        sm: "480px",
+        md: "640px",
+        lg: "768px",
+        xl: "1024px",
+        "2xl": "1280px",
+        "3xl": "1536px",
       },
     },
   },
